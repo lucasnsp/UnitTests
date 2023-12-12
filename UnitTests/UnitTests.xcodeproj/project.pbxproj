@@ -14,6 +14,8 @@
 		467FE8FD2B236675002E52B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 467FE8FC2B236675002E52B3 /* Assets.xcassets */; };
 		467FE9002B236675002E52B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 467FE8FE2B236675002E52B3 /* LaunchScreen.storyboard */; };
 		467FE90B2B236676002E52B3 /* UnitTestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467FE90A2B236676002E52B3 /* UnitTestsTests.swift */; };
+		467FE9242B27AD8C002E52B3 /* UtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467FE9232B27AD8C002E52B3 /* UtilsTests.swift */; };
+		467FE9262B27B38E002E52B3 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467FE9252B27B38E002E52B3 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 		467FE9012B236676002E52B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		467FE9062B236676002E52B3 /* UnitTestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		467FE90A2B236676002E52B3 /* UnitTestsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestsTests.swift; sourceTree = "<group>"; };
+		467FE9232B27AD8C002E52B3 /* UtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilsTests.swift; sourceTree = "<group>"; };
+		467FE9252B27B38E002E52B3 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 				467FE8FC2B236675002E52B3 /* Assets.xcassets */,
 				467FE8FE2B236675002E52B3 /* LaunchScreen.storyboard */,
 				467FE9012B236676002E52B3 /* Info.plist */,
+				467FE9252B27B38E002E52B3 /* Utils.swift */,
 			);
 			path = UnitTests;
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				467FE90A2B236676002E52B3 /* UnitTestsTests.swift */,
+				467FE9232B27AD8C002E52B3 /* UtilsTests.swift */,
 			);
 			path = UnitTestsTests;
 			sourceTree = "<group>";
@@ -201,6 +207,7 @@
 				467FE8F82B236673002E52B3 /* ViewController.swift in Sources */,
 				467FE8F42B236673002E52B3 /* AppDelegate.swift in Sources */,
 				467FE8F62B236673002E52B3 /* SceneDelegate.swift in Sources */,
+				467FE9262B27B38E002E52B3 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				467FE90B2B236676002E52B3 /* UnitTestsTests.swift in Sources */,
+				467FE9242B27AD8C002E52B3 /* UtilsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
